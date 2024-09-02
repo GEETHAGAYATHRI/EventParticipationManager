@@ -1,0 +1,188 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: #0c0909;
+    width: 100%;
+    padding: 5rem 0;
+    background-image: url(./Untitled\ design\ \(1\).png);
+    background-color: #11100f;
+    background-size: cover;
+    display: grid;
+    align-content: center;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+
+.form-wrapper {
+    margin: 0 auto;
+    width: 60%;
+    overflow: hidden;
+    background: transparent;
+    border: 1px solid #110d0df3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #141313ef;
+    padding: 10px;
+}
+
+.form-group {
+    display: flex;
+    padding: 5px;
+    text-align: left;
+    margin: 4px 0;
+}
+
+.form-group label {
+    font-weight: 400;
+}
+
+.form-group input,
+option {
+    font-weight: 200;
+}
+
+.form-group input {
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #0b135f;
+    width: 400px;
+    padding: 5px;
+    border: 1px solid rgba(116, 29, 29, 0.5);
+    outline: rgba(248, 247, 245, 0.973);
+}
+
+.form-group input[type="radio"] {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.form-group label[for="name"],
+.form-group label[for="email"] {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.box input {
+    width: auto;
+}
+
+#hear {
+    margin-right: 10px;
+}
+
+.form-group select {
+    outline: none;
+    border: 1px solid rgba(116, 29, 29, 0.5);
+    cursor: pointer;
+    border-radius: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    padding: 5px;
+    background-color: transparent;
+    color: #696363d5;
+}
+
+.form-group select option {
+    background-color: #0e0d0d;
+    color: #faf4f4;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 50%;
+    resize: none;
+    background: transparent;
+    border-radius: 6px;
+    border-color: #5f131385;
+    color: #f8f5f5;
+    padding: 5px;
+}
+
+button {
+    width: 60%;
+    padding: 6px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #5c1818c9;
+    transition: all 0.2s;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e65b00;
+    border-color: #e65b00;
+}
+
+@media screen and (max-width: 839px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .form-wrapper {
+        width: 100%;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"] {
+        width: 80%;
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+
+    .form-group select {
+        width: 40%;
+        border-radius: 5px;
+        cursor: pointer;
+
+        padding: 5px;
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .form-group select option {
+        width: 40%;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+        border: none;
+        padding: 5px;
+        background-color: #e65b00;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    .gender {
+        display: flex;
+    }
+}
